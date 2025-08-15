@@ -15,7 +15,7 @@ const ProgressTracker: React.FC<ProgressTrackerProps> = ({ totalDistanceWalked, 
   const characterPosition = `calc(${isReversed ? 100 - cappedProgress : cappedProgress}% - ${isReversed ? 0 : 80}px)`;
   const characterFinalPosition = `calc(100% - 80px)`;
 
-  const markers = [];
+  const markers: JSX.Element[] = [];
   if (targetDistance > 0) {
     const maxMarkers = 10;
     const interval = Math.max(5, Math.ceil(targetDistance / maxMarkers / 5) * 5);

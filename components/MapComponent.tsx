@@ -12,7 +12,7 @@ interface Castle {
   type: 'castle';
 }
 
-interface Shop {
+export interface Shop {
   id: number;
   name: string;
   address: string;
@@ -94,7 +94,7 @@ const MapComponent: React.FC<MapComponentProps> = ({
 
   return (
     <Map
-      mapId={import.meta.env.VITE_GOOGLE_MAP_ID!}
+       // mapId={import.meta.env.VITE_GOOGLE_MAP_ID!}
       defaultCenter={{ lat: 35.681236, lng: 139.767125 }}
       defaultZoom={5}
       gestureHandling={'greedy'}
@@ -113,7 +113,7 @@ const MapComponent: React.FC<MapComponentProps> = ({
         {castles.map((castle) => (
             <AdvancedMarker key={castle.id} position={{ lat: castle.lat, lng: castle.lng }} onClick={() => setSelectedCastle(castle)}>
                 <Pin
-                    background={targetLocations.some(loc => loc.id === castle.id && loc.type === 'castle') ? '#007bff' : (castle.type === '100' ? '#FF0000' : '#34A853')}
+                    background={targetLocations.some(loc => loc.id === castle.id && loc.type === 'castle') ? '#007bff' : (false /* TODO: Clarify what '100' means here */ ? '#FF0000' : '#34A853')}
                     borderColor={'#000000'}
                 />
             </AdvancedMarker>

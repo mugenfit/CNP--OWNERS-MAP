@@ -2,7 +2,7 @@
 
 import React from 'react';
 
-import { Shop } from '@miyazawanaotaka/shop-map-module';
+import { Shop } from './MapComponent';
 
 interface HeaderProps {
   tripType: 'outbound' | 'inbound';

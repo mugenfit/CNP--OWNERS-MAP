@@ -1,11 +1,11 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { useShops } from '@miyazawanaotaka/shop-map-module';
 import ProgressTracker from './ProgressTracker';
 import WaypointPanel from './WaypointPanel';
-import { MapComponent, Shop } from '@miyazawanaotaka/shop-map-module';
-import type { SankinKotaiData } from '@/hooks/useSankinKotaiData';
+import MapComponent from './MapComponent';
+import { Shop } from './MapComponent';
+import type { SankinKotaiData } from './src/hooks/useSankinKotaiData';
 
 interface MapContainerProps {
   data: SankinKotaiData;
@@ -14,7 +14,11 @@ interface MapContainerProps {
 }
 
 const MapContainer: React.FC<MapContainerProps> = ({ data, selectedShop, setSelectedShop }) => {
-  const { shops, loading: shopsLoading, error: shopsError } = useShops(data.userLocation);
+  // TODO: The useShops hook is missing. This is a placeholder.
+  const shops: Shop[] = [];
+  const shopsLoading = false;
+  const shopsError = null;
+
   const [map, setMap] = useState<google.maps.Map | null>(null);
   const [isFollowing, setIsFollowing] = useState(true);
 
