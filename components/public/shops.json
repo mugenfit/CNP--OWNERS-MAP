@@ -1,0 +1,31 @@
+[
+  {
+    "id": 1,
+    "name": "Sample Shop Alpha",
+    "address": "Tokyo, Japan",
+    "lat": 35.6895,
+    "lng": 139.6917,
+    "type": "shop",
+    "description": "A great sample shop.",
+    "url": "https://example.com"
+  },
+  {
+    "id": 2,
+    "name": "Sample Shop Bravo",
+    "address": "Osaka, Japan",
+    "lat": 34.6937,
+    "lng": 135.5023,
+    "type": "shop",
+    "description": "Another fantastic sample shop.",
+    "url": "https://example.com"
+  },
+  {
+    "id": 3,
+    "name": "Online Shop Charlie",
+    "address": "",
+    "isOnline": true,
+    "type": "shop",
+    "description": "This shop is online only.",
+    "url": "https://example.com"
+  }
+]

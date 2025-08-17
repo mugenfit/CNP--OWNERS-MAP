@@ -1,4 +1,4 @@
-interface Shop {
+export interface Shop {
     id: number;
     name: string;
     address: string;
@@ -12,7 +12,7 @@ interface Shop {
     segmentDistance?: number;
     category?: string;
 }
-interface Castle {
+export interface Castle {
     id: number;
     name: string;
     lat: number;
@@ -21,15 +21,18 @@ interface Castle {
     type: 'castle';
     segmentDistance?: number;
 }
-type Location = Shop | Castle;
-
-declare const useShops: (userLocation: {
+export type Location = Shop | Castle;
+export type LatLngLiteral = {
     lat: number;
     lng: number;
-} | null) => {
-    shops: Shop[];
-    loading: boolean;
-    error: string | null;
 };
-
-export { type Castle, type Location, type Shop, useShops };
+export type TripType = 'outbound' | 'inbound';
+export interface TripData {
+    segments: Array<{
+        start: LatLngLiteral;
+        end: LatLngLiteral;
+        distance: number;
+    }>;
+    totalDistance: number;
+    title: string;
+}
