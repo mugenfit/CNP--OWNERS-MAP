@@ -13,14 +13,14 @@
     "@miyazawanaotaka/shop-map-module": "file:../packages/shop-map-module",
     "@vis.gl/react-google-maps": "^1.5.4",
     "react": ">=18",
-    "react-dom": ">=18"
+    "react-dom": ">=18",
+    "vite": "^7.1.2"
   },
   "devDependencies": {
     "@types/node": "^24.2.1",
     "@types/react": "^18",
     "@types/react-dom": "^18.2.19",
     "@vitejs/plugin-react": "^5.0.0",
-    "typescript": "^5",
-    "vite": "^7.1.2"
+    "typescript": "^5"
   }
 }

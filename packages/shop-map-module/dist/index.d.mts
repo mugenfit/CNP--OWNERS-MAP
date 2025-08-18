@@ -26,7 +26,7 @@ type Location = Shop | Castle;
 declare const useShops: (userLocation: {
     lat: number;
     lng: number;
-} | null) => {
+} | null, isApiLoaded: boolean) => {
     shops: Shop[];
     loading: boolean;
     error: string | null;

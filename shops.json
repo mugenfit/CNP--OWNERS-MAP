@@ -1,0 +1,712 @@
+[
+   {
+      "name": "会員制美容室 白詰草",
+      "address": "岡山県津山市船頭町104-1",
+      "url": "https://www.cnpowners.jp/cnp/%E4%BC%9A%E5%93%A1%E5%93%A1%E5%88%B6%E7%BE%8E%E5%AE%B9%E5%AE%A4-%E7%99%BD%E8%A9%B0%E8%8D%89",
+      "description": "カット無料orヘッドスパ15分",
+      "id": 1
+   },
+   {
+      "name": "THE JEWELS",
+      "address": "北海道札幌市南区 北ノ沢1956番地先藻岩山山頂",
+      "url": "https://www.cnpowners.jp/cnp/the-jewels",
+      "description": "グラスシャンパン1杯進呈",
+      "id": 2
+   },
+   {
+      "name": "気仙沼新富寿し",
+      "address": "宮城県気仙沼市東新城1丁目13-3",
+      "url": "https://www.cnpowners.jp/shop/shopA",
+      "description": "握り1貫orドリンクなど",
+      "id": 3
+   },
+   {
+      "name": "アウトドアギア販売とカフェ&バー『ロマンチスト☆テイスト』",
+      "address": "東京都武蔵野市吉祥寺南町5丁目6-25-1F",
+      "url": "https://www.cnpowners.jp/cnp/%E3%82%A2%E3%82%A6%E3%83%88%E3%83%89%E3%82%A2%E3%82%AE%E3%82%A2%E8%B2%A9%E5%A3%B2%E3%81%A8%E3%82%AB%E3%83%95%E3%82%A7%26%E3%83%90%E3%83%BC%E3%80%8E%E3%83%AD%E3%83%9E%E3%83%B3%E3%83%81%E3%82%B9%E3%83%88%E2%98%86%E3%83%86%E3%82%A4%E3%82%B9%E3%83%88%E3%80%8F",
+      "description": "POAP配布&ステッカー",
+      "id": 4
+   },
+   {
+      "name": "WHARF西荻窪",
+      "address": "東京都杉並区西荻南3-11-12 明月店舗Ⅱ 1F",
+      "url": "https://www.cnpowners.jp/cnp/wharf%E8%A5%BF%E8%8D%BB%E7%AA%AA",
+      "description": "ステッカープレゼント",
+      "id": 5
+   },
+   {
+      "name": "中国料理 眞好味（マコミ）",
+      "address": "神奈川県伊勢原市伊勢原4-637-1レジデンス和105",
+      "url": "https://www.cnpowners.jp/cnp/%E4%B8%AD%E5%9B%BD%E6%96%99%E7%90%86-%E7%9C%9E%E5%A5%BD%E5%91%B3%EF%BC%88%E3%83%9E%E3%82%B3%E3%83%9F%EF%BC%89",
+      "description": "CNPステッカー&餃子1皿",
+      "id": 6
+   },
+   {
+      "name": "ZUKOUSHITU",
+      "address": "千葉県南房総市和田町中三原501",
+      "url": "https://www.cnpowners.jp/cnp/zukoushitu",
+      "description": "ルナキーホルダープレゼント",
+      "id": 7
+   },
+   {
+      "name": "カリースパイス山路",
+      "address": "長野県飯山市南町26-14",
+      "url": "https://www.cnpowners.jp/cnp/%E3%82%AB%E3%83%AA%E3%83%BC%E3%82%B9%E3%83%91%E3%82%A4%E3%82%B9%E5%B1%B1%E8%B7%AF",
+      "description": "ランチドリンクサービス他",
+      "id": 8
+   },
+   {
+      "name": "自由多幸寿-LIBRE-",
+      "address": "キッチンカーの為移動式",
+      "category": "移動販売",
+      "url": "https://www.cnpowners.jp/cnp/%E8%87%AA%E7%94%B1%E5%A4%9A%E5%B9%B8%E5%AF%BF-libre-",
+      "description": "2000円割引orタコス進呈",
+      "id": 9
+   },
+   {
+      "name": "手打ちうどん 上を向いて",
+      "address": "大阪府寝屋川市香里南之町34-5",
+      "url": "https://www.cnpowners.jp/cnp/%E6%89%8B%E6%89%93%E3%81%A1%E3%81%86%E3%81%A9%E3%82%93-%E4%B8%8A%E3%82%92%E5%90%91%E3%81%84%E3%81%A6",
+      "description": "竹輪の磯辺揚げ1本サービス",
+      "id": 10
+   },
+   {
+      "name": "Nishida Coffee",
+      "address": "山口県山口市湯田温泉五丁目7-6",
+      "url": "https://www.cnpowners.jp/cnp/nishida-coffee",
+      "description": "ドリップパック1個贈呈",
+      "id": 11
+   },
+   {
+      "name": "がっつり‼︎こーちゃん",
+      "address": "広島市中区国泰寺町1-7-26白鳳ビル1F",
+      "url": "https://www.cnpowners.jp/cnp/%E3%81%8C%E3%81%A3%E3%81%A4%E3%82%8A%E2%80%BC%EF%B8%8E%E3%81%93%E3%83%BC%E3%81%A1%E3%82%83%E3%82%93",
+      "description": "広島レモンサイダーサービス",
+      "id": 12
+   },
+   {
+      "name": "純手打うどん よしや",
+      "address": "香川県丸亀市飯野町東二343-1",
+      "url": "https://www.cnpowners.jp/cnp/%E7%B4%94%E6%89%8B%E6%89%93%E3%81%A1%E3%81%86%E3%81%A9%E3%82%93-%E3%82%88%E3%81%97%E3%82%84",
+      "description": "ステッカー贈呈",
+      "id": 13
+   },
+   {
+      "name": "ステーキダイニング人生意気に感ず",
+      "address": "香川県丸亀市飯野町東二346-3",
+      "url": "https://www.cnpowners.jp/cnp/%E3%82%B9%E3%83%86%E3%83%BC%E3%82%AD%E3%83%80%E3%82%A4%E3%83%8B%E3%83%B3%E3%82%B0%E4%BA%BA%E7%94%9F%E6%84%8F%E6%B0%97%E3%81%AB%E6%84%9F%E3%81%9A",
+      "description": "お肉大盛りorドリンク無料",
+      "id": 14
+   },
+   {
+      "name": "PianeysのピアノLINEレッスン",
+      "address": "オンライン",
+      "isOnline": true,
+      "url": "https://www.cnpowners.jp/cnp/pianeys%E3%81%AE%E3%83%94%E3%82%A2%E3%83%8Eline%E3%83%AC%E3%83%83%E3%82%B9%E3%83%B3",
+      "description": "徹底分析レッスン 500円OFF",
+      "id": 15
+   },
+   {
+      "name": "ハヤト整体院",
+      "address": "春日井市大和通1丁目70-1 大和ビル 4階",
+      "url": "https://www.cnpowners.jp/cnp/%E3%83%8F%E3%83%A4%E3%83%88%E6%95%B4%E4%BD%93%E9%99%A2",
+      "description": "1500円OFF",
+      "id": 16
+   },
+   {
+      "name": "柿川亭",
+      "address": "新潟県長岡市南町1-10-16",
+      "url": "https://www.cnpowners.jp/cnp/%E6%9F%BF%E5%B7%9D%E4%BA%AD",
+      "description": "金曜日の夜は油そば無料",
+      "id": 17
+   },
+   {
+      "name": "株式会社ヒロケン",
+      "address": "千葉県市川市八幡3-11-2",
+      "url": "https://www.cnpowners.jp/cnp/%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%83%92%E3%83%AD%E3%82%B1%E3%83%B3",
+      "description": "仲介手数料半額",
+      "id": 18
+   },
+   {
+      "name": "医療法人大川歯科医院",
+      "address": "群馬県太田市矢場新町118番地4",
+      "url": "https://www.cnpowners.jp/cnp/%E5%8C%BB%E7%99%82%E6%B3%95%E4%BA%BA%E5%A4%A7%E5%B7%9D%E6%AD%AF%E7%A7%91%E5%8C%BB%E9%99%A2",
+      "description": "口腔がん検診無料",
+      "id": 19
+   },
+   {
+      "name": "PASS DOUGHNUTS",
+      "address": "香川県三豊市",
+      "url": "https://www.cnpowners.jp/cnp/pass-doughnuts",
+      "description": "お好きなドーナツ一個無料",
+      "id": 20
+   },
+   {
+      "name": "simasima",
+      "address": "香川県高松市松福町2-11-2",
+      "url": "https://www.cnpowners.jp/cnp/simasima",
+      "description": "バルにてビール一杯無料",
+      "id": 21
+   },
+   {
+      "name": "レンタルスタジオベリー",
+      "address": "福岡市、熊本市",
+      "url": "https://www.cnpowners.jp/cnp/%E3%83%AC%E3%83%B3%E3%82%BF%E3%83%AB%E3%82%B9%E3%82%BF%E3%82%B8%E3%82%AA%E3%83%99%E3%83%AA%E3%83%BC",
+      "description": "利用料金25%割引",
+      "id": 22
+   },
+   {
+      "name": "民泊：ハーモニクスヴィラ（MetaHONDA presents）",
+      "address": "福岡県福岡市東区大岳3-4-25-102",
+      "url": "https://www.cnpowners.jp/cnp/%E6%B0%91%E6%B3%8A%EF%BC%9A%E3%83%8F%E3%83%BC%E3%83%A2%E3%83%8B%E3%82%AF%E3%82%B9%E3%83%B4%E3%82%A3%E3%83%A9%EF%BC%88metahonda-presents%EF%BC%89",
+      "description": "自転車1台無料貸出",
+      "id": 23
+   },
+   {
+      "name": "有限会社エフネット",
+      "address": "福岡県福岡市東区和白丘2-29-31",
+      "url": "https://www.cnpowners.jp/cnp/%E6%9C%89%E9%99%90%E4%BC%9A%E7%A4%BE%E3%82%A8%E3%83%95%E3%83%8D%E3%83%83%E3%83%88",
+      "description": "30分無料コンサル",
+      "id": 24
+   },
+   {
+      "name": "板取キャンプ場",
+      "address": "岐阜県関市板取4602-12",
+      "url": "https://www.cnpowners.jp/cnp/%E6%9D%BF%E5%8F%96%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%97%E5%A0%B4",
+      "description": "釣り堀の竿1本無料レンタル",
+      "id": 25
+   },
+   {
+      "name": "にほん酒処　翁",
+      "address": "東京都世田谷区祖師谷1-8-17 まるよし横丁102",
+      "url": "https://www.cnpowners.jp/cnp/%E3%81%AB%E3%81%BB%E3%82%93%E9%85%92%E5%87%A6%E3%80%80%E7%BF%81",
+      "description": "ドリンク一杯無料",
+      "id": 26
+   },
+   {
+      "name": "GREEN STUDIO",
+      "address": "大阪府大阪市中央区西心斎橋2丁目10-15心斎橋ロジック地下1階",
+      "url": "https://www.cnpowners.jp/cnp/%E3%82%B0%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B9%E3%82%BF%E3%82%B8%E3%82%AA",
+      "description": "スタジオ利用1時間無料",
+      "id": 27
+   },
+   {
+      "name": "カネホン採石場",
+      "address": "栃木県宇都宮市大谷町209",
+      "url": "https://www.cnpowners.jp/cnp/%E3%82%AB%E3%83%8D%E3%83%9B%E3%83%B3%E6%8E%A1%E7%9F%B3%E5%A0%B4",
+      "description": "大谷石のコースター贈呈",
+      "id": 28
+   },
+   {
+      "name": "創作らーめん奥我",
+      "address": "埼玉県秩父郡皆野町下田野1337-5",
+      "url": "https://www.cnpowners.jp/cnp/%E5%89%B5%E4%BD%9C%E3%82%89%E3%83%BC%E3%82%81%E3%82%93%E5%A5%A5%E6%88%91",
+      "description": "手作り餃子1皿無料",
+      "id": 29
+   },
+   {
+      "name": "Knoah～ノア～",
+      "address": "長野県駒ヶ根市赤須町18-5 アセプビル1F 西",
+      "url": "https://www.cnpowners.jp/cnp/knoah%EF%BD%9E%E3%83%8E%E3%82%A2%EF%BD%9E",
+      "description": "整体10分延長無料など",
+      "id": 30
+   },
+   {
+      "name": "広島流お好み焼 来風",
+      "address": "岡山県岡山市南区並木町2-14-8",
+      "url": "https://www.cnpowners.jp/cnp/%E5%BA%83%E5%B3%B6%E6%B5%81%E3%81%8A%E5%A5%BD%E3%81%BF%E7%84%BC--%E6%9D%A5%E9%A2%A8",
+      "description": "『肉玉そば半分岩塩＋お好み焼きに合う季節の柑橘』 （950円）",
+      "id": 31
+   },
+   {
+      "name": "プロシード",
+      "address": "広島県広島市中区鉄砲町1-18 佐々木ビル8F",
+      "url": "https://www.cnpowners.jp/cnp/%E3%83%97%E3%83%AD%E3%82%B7%E3%83%BC%E3%83%89",
+      "description": "輸入玩具30%以上OFF",
+      "id": 32
+   },
+   {
+      "name": "Sup! Sup!",
+      "address": "栃木県日光市久次良町242",
+      "url": "https://www.cnpowners.jp/cnp/sup!-sup!",
+      "description": "SUP体験プラン1,000円割引",
+      "id": 33
+   },
+   {
+      "name": "みのだ社労士FP事務所",
+      "address": "福岡県糸島市加布里5-6-1",
+      "url": "https://www.cnpowners.jp/cnp/%E3%81%BF%E3%81%AE%E3%81%A0%E7%A4%BE%E5%8A%B4%E5%B8%ABfp%E4%BA%8B%E5%8B%99%E6%89%80",
+      "description": "応対可能時間1時間延長",
+      "id": 34
+   },
+   {
+      "name": "YOKOZUNA SUSHI",
+      "address": "Mexico, Quintana Roo, Solidalidad, Puerto Maya, Calzada #12",
+      "url": "https://www.cnpowners.jp/cnp/yokozuna-sushi",
+      "description": "お会計 22% Off",
+      "id": 35
+   },
+   {
+      "name": "BRUNO STUDIO",
+      "address": "オンライン",
+      "isOnline": true,
+      "url": "https://www.cnpowners.jp/cnp/bruno-studio",
+      "description": "撮影料金20%OFF",
+      "id": 36
+   },
+   {
+      "name": "Heartlight山手研究所",
+      "address": "神奈川県横浜市中区矢口台33",
+      "url": "https://www.cnpowners.jp/cnp/heartlight%E5%B1%B1%E6%89%8B%E7%A0%94%E7%A9%B6%E6%89%80",
+      "description": "セッション料金50％OFF",
+      "id": 37
+   },
+   {
+      "name": "Patisserie Juna",
+      "address": "岡山県岡山市北区一宮94-2",
+      "url": "https://www.cnpowners.jp/cnp/patisserie-juna",
+      "description": "クッキーおひとつプレゼント",
+      "id": 38
+   },
+   {
+      "name": "焼肉生一本",
+      "address": "オンライン",
+      "isOnline": true,
+      "url": "https://www.cnpowners.jp/cnp/%E7%84%BC%E8%82%89%E7%94%9F%E4%B8%80%E6%9C%AC",
+      "description": "牛タンしゃぶしゃぶ+100g",
+      "id": 39
+   },
+   {
+      "name": "BAR CANPAI",
+      "address": "福島県郡山市堂前町17-15大秀ビル102",
+      "url": "https://www.cnpowners.jp/cnp/bar-canpai",
+      "description": "うじゅ本1冊プレゼント！",
+      "id": 40
+   },
+   {
+      "name": "炭火と鮨　海蔵",
+      "address": "東京都中央区月島3-11-10",
+      "url": "https://www.cnpowners.jp/cnp/%E7%82%AD%E7%81%AB%E3%81%A8%E9%AE%A8%E3%80%80%E6%B5%B7%E8%94%B5",
+      "description": "CNP大漁盛プレゼント",
+      "id": 41
+   },
+   {
+      "name": "炭火やきとり武将門",
+      "address": "長崎県長崎市本石灰町2-22",
+      "url": "https://www.cnpowners.jp/cnp/%E7%82%AD%E7%81%AB%E3%82%84%E3%81%8D%E3%81%A8%E3%82%8A%E6%AD%A6%E5%B0%86%E9%96%80",
+      "description": "オススメ焼き鳥をサービス",
+      "id": 42
+   },
+   {
+      "name": "美容室バールバロ",
+      "address": "京都府京都市伏見区久我石原町9-269",
+      "url": "https://www.cnpowners.jp/cnp/%E7%BE%8E%E5%AE%B9%E5%AE%A4%E3%83%90%E3%83%BC%E3%83%AB%E3%83%90%E3%83%AD",
+      "description": "メニュー10％オフなど",
+      "id": 43
+   },
+   {
+      "name": "ＪＯＹ株式会社",
+      "address": "オンライン",
+      "isOnline": true,
+      "url": "https://www.cnpowners.jp/cnp/%EF%BD%8A%EF%BD%8F%EF%BD%99%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE",
+      "description": "オフィス家具1品無料",
+      "id": 44
+   },
+   {
+      "name": "バランス整骨院　幡ヶ谷",
+      "address": "東京都渋谷区幡ヶ谷2-9-15　セルピナ幡ヶ谷1階",
+      "url": "https://www.cnpowners.jp/cnp/%E3%83%90%E3%83%A9%E3%83%B3%E3%82%B9%E6%95%B4%E9%AA%A8%E9%99%A2%E3%80%80%E5%B9%A1%E3%83%B6%E8%B0%B7",
+      "description": "初診料 1,980円　無料",
+      "id": 45
+   },
+   {
+      "name": "焼肉　はっちょう",
+      "address": "茨城県那珂郡東海村大山台2-21-22",
+      "url": "https://www.cnpowners.jp/cnp/%E7%84%BC%E8%82%89%E3%80%80%E3%81%AF%E3%81%A3%E3%81%A1%E3%82%87%E3%81%86",
+      "description": "常陸牛カルビ1人前無料",
+      "id": 46
+   },
+   {
+      "name": "よね吉",
+      "address": "栃木県足利市通4-3489-2",
+      "url": "https://www.cnpowners.jp/cnp/%E3%82%88%E3%81%AD%E5%90%89",
+      "description": "唐揚げ3個無料",
+      "id": 47
+   },
+   {
+      "name": "日本酒 雫",
+      "address": "東京都目黒区南3-9-13",
+      "url": "https://www.cnpowners.jp/cnp/%E6%97%A5%E6%9C%AC%E9%85%92-%E9%9B%AB",
+      "description": "日本酒1杯サービス",
+      "id": 48
+   },
+   {
+      "name": "ぬいぐるみ旅行社　すだちトラベル",
+      "address": "オンライン",
+      "isOnline": true,
+      "url": "https://www.cnpowners.jp/cnp/%E3%81%AC%E3%81%84%E3%81%90%E3%82%8B%E3%81%BF%E6%97%85%E8%A1%8C%E7%A4%BE%E3%80%80%E3%81%99%E3%81%A0%E3%81%A1%E3%83%88%E3%83%A9%E3%83%99%E3%83%AB",
+      "description": "NFT鳴門美術館での撮影サービス",
+      "id": 49
+   },
+   {
+      "name": "Fortero（フォルテロ）オンラインストア",
+      "address": "オンライン",
+      "isOnline": true,
+      "url": "https://www.cnpowners.jp/cnp/fortero%EF%BC%88%E3%83%95%E3%82%A9%E3%83%AB%E3%83%86%E3%83%AD%EF%BC%89%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%82%A2",
+      "description": "スカルプシャンプー10％OFF",
+      "id": 50
+   },
+   {
+      "name": "一里野高原ホテル ろあん",
+      "address": "石川県白山市尾添チ70−4",
+      "url": "https://www.cnpowners.jp/cnp/%E4%B8%80%E9%87%8C%E9%87%8E%E9%AB%98%E5%8E%9F%E3%83%9B%E3%83%86%E3%83%AB-%E3%82%8D%E3%81%82%E3%82%93",
+      "description": "白山ショコラのコーヒーセット",
+      "id": 51
+   },
+   {
+      "name": "炭火工房鳥庵ばん吉",
+      "address": "大阪府門真市末広町36-18",
+      "url": "https://www.cnpowners.jp/cnp/%E7%82%AD%E7%81%AB%E5%B7%A5%E6%88%BF%E9%B3%A5%E5%BA%B5%E3%81%B0%E3%82%93%E5%90%89",
+      "description": "最初のドリンクプレゼント",
+      "id": 52
+   },
+   {
+      "name": "guttinail（グッチーネイル）",
+      "address": "神奈川県横浜市鶴見区",
+      "url": "https://www.cnpowners.jp/cnp/guttinail%EF%BC%88%E3%82%B0%E3%83%83%E3%83%81%E3%83%BC%E3%83%8D%E3%82%A4%E3%83%AB%EF%BC%89",
+      "description": "500円割引",
+      "id": 53
+   },
+   {
+      "name": "南あわじドッグラン・飛行犬撮影所",
+      "address": "兵庫県南あわじ市伊加利1174",
+      "url": "https://www.cnpowners.jp/cnp/%E5%8D%97%E3%81%82%E3%82%8F%E3%81%98%E3%83%89%E3%83%83%E3%82%B0%E3%83%A9%E3%83%B3%E3%83%BB%E9%A3%9B%E8%A1%8C%E7%8A%AC%E6%92%AE%E5%BD%B1%E6%89%80",
+      "description": "撮影料500円OFF",
+      "id": 54
+   },
+   {
+      "name": "ビジネスホテル ベイ",
+      "address": "鹿児島県薩摩川内市下甑町手打529−1",
+      "url": "https://www.cnpowners.jp/cnp/%E3%83%92%E3%82%B8%E3%83%8D%E3%82%B9%E3%83%9B%E3%83%86%E3%83%AB-%E3%83%99%E3%82%A4",
+      "description": "宿泊料金10％オフ&記念品",
+      "id": 55
+   },
+   {
+      "name": "il Buco",
+      "address": "静岡県藤枝市駅前3-17-1",
+      "url": "https://www.cnpowners.jp/cnp/il-buco",
+      "description": "ドリンク1杯＆ステッカー",
+      "id": 56
+   },
+   {
+      "name": "パーソナルジム Bodyke 秋葉原店",
+      "address": "東京都千代田区 神田岩本町1-1 岩本町ビル3F",
+      "url": "https://www.cnpowners.jp/cnp/%E3%83%91%E3%83%BC%E3%82%BD%E3%83%8A%E3%83%AB%E3%82%B8%E3%83%A0-bodyke-%E7%A7%8B%E8%91%89%E5%8E%9F%E5%BA%97",
+      "description": "最大5万円OFF！",
+      "id": 57
+   },
+   {
+      "name": "パーソナルジム Bodyke 池袋店",
+      "address": "東京都豊島区西池袋5丁目2−11春谷ビル 4F 第一",
+      "url": "https://www.cnpowners.jp/cnp/%E3%83%91%E3%83%BC%E3%82%BD%E3%83%8A%E3%83%AB%E3%82%B8%E3%83%A0-bodyke-%E6%B1%A0%E8%A2%8B%E5%BA%97",
+      "description": "最大5万円OFF！",
+      "id": 58
+   },
+   {
+      "name": "パーソナルジムBeWell",
+      "address": "高知県（オンライン可能）",
+      "url": "https://www.cnpowners.jp/cnp/%E3%83%91%E3%83%BC%E3%82%BD%E3%83%8A%E3%83%AB%E3%82%B8%E3%83%A0bewell",
+      "description": "初回無料",
+      "id": 59
+   },
+   {
+      "name": "PAW PAW STRONG（パウパウストロング）",
+      "address": "オンライン",
+      "isOnline": true,
+      "url": "https://www.cnpowners.jp/cnp/paw-paw-strong%EF%BC%88%E3%83%91%E3%82%A6%E3%83%91%E3%82%A6%E3%82%B9%E3%83%88%E3%83%AD%E3%83%B3%E3%82%B0%EF%BC%89",
+      "description": "愛犬用CBDオイル20%OFF",
+      "id": 60
+   },
+   {
+      "name": "Roe’s kitchen",
+      "address": "京都府京都市下京区坊門町833番地7 イツワマンション103",
+      "url": "https://www.cnpowners.jp/cnp/roe%E2%80%99s-kitchen",
+      "description": "食後のコーヒー1杯無料など",
+      "id": 61
+   },
+   {
+      "name": "喰らうどん",
+      "address": "兵庫県神戸市中央区栄町通3-6-17 ユカビル1F",
+      "url": "https://www.cnpowners.jp/cnp/%E5%96%B0%E3%82%89%E3%81%86%E3%81%A9%E3%82%93",
+      "description": "ちくわ天1本サービス",
+      "id": 62
+   },
+   {
+      "name": "NFT ART GALLERY BAR R/I=H...s (さそりちゃんのBAR)",
+      "address": "愛知県名古屋市中村区名駅2-45-7 松岡ビル地下一階",
+      "url": "https://www.cnpowners.jp/cnp/nft-art-gallery-bar--r%2Fi%3Dh...s-(%E3%81%95%E3%81%9D%E3%82%8A%E3%81%A1%E3%82%83%E3%82%93%E3%81%AEbar)",
+      "description": "お会計10%OFF",
+      "id": 63
+   },
+   {
+      "name": "奥幕張亭",
+      "address": "千葉県千葉市花見川区武石町1−442",
+      "url": "https://www.cnpowners.jp/cnp/%E5%A5%A5%E5%B9%95%E5%BC%B5%E4%BA%AD",
+      "description": "オプションの「焚火」が無料",
+      "id": 64
+   },
+   {
+      "name": "炭家〜すみか〜",
+      "address": "愛知県名古屋市中村区西米野町四丁目14佐藤ビル1階中",
+      "url": "https://www.cnpowners.jp/cnp/%E7%82%AD%E5%AE%B6%E3%80%9C%E3%81%99%E3%81%BF%E3%81%8B%E3%80%9C",
+      "description": "トッピングorドリンクサービス",
+      "id": 65
+   },
+   {
+      "name": "SMART恵比寿",
+      "address": "東京都渋谷区東3-15-11 渋谷東ビル2階",
+      "url": "https://www.cnpowners.jp/cnp/smart%E6%81%B5%E6%AF%94%E5%AF%BF",
+      "description": "MacBook修理など20％割引",
+      "id": 66
+   },
+   {
+      "name": "プライベートサロンtsubaki",
+      "address": "東京都北区滝野川3丁目",
+      "url": "https://www.cnpowners.jp/cnp/%E3%83%97%E3%83%A9%E3%82%A4%E3%83%99%E3%83%BC%E3%83%88%E3%82%B5%E3%83%AD%E3%83%B3tsubaki",
+      "description": "10分無料延長",
+      "id": 67
+   },
+   {
+      "name": "大空（整体庵大空）",
+      "address": "大阪府東大阪市南鴻池町1-4-9",
+      "url": "https://www.cnpowners.jp/cnp/%E5%A4%A7%E7%A9%BA%EF%BC%88%E6%95%B4%E4%BD%93%E5%BA%B5%E5%A4%A7%E7%A9%BA%EF%BC%89",
+      "description": "セルフエクササイズ無料作成",
+      "id": 68
+   },
+   {
+      "name": "パーソナルジム Bodyke 本厚木店",
+      "address": "神奈川県厚木市寿町2丁目1−28 2F",
+      "url": "https://www.cnpowners.jp/cnp/%E3%83%91%E3%83%BC%E3%82%BD%E3%83%8A%E3%83%AB%E3%82%B8%E3%83%A0-bodyke-%E6%9C%AC%E5%8E%9A%E6%9C%A8%E5%BA%97",
+      "description": "最大5万円OFF！",
+      "id": 69
+   },
+   {
+      "name": "パーソナルジム Bodyke 町田店",
+      "address": "東京都町田市中町1丁目17−10 土方ビル 2F",
+      "url": "https://www.cnpowners.jp/cnp/%E3%83%91%E3%83%BC%E3%82%BD%E3%83%8A%E3%83%AB%E3%82%B8%E3%83%A0-bodyke-%E7%94%BA%E7%94%B0%E5%BA%97",
+      "description": "最大5万円OFF！",
+      "id": 70
+   },
+   {
+      "name": "ココロトカウンセリングルーム",
+      "address": "「田町駅」より徒歩圏内（予約時にお知らせ）",
+      "url": "https://www.cnpowners.jp/cnp/%E3%82%B3%E3%82%B3%E3%83%AD%E3%83%88%E3%82%AB%E3%82%A6%E3%83%B3%E3%82%BB%E3%83%AA%E3%83%B3%E3%82%B0%E3%83%AB%E3%83%BC%E3%83%A0",
+      "description": "初回面接料金3,000円OFF",
+      "id": 71
+   },
+   {
+      "name": "万福小屋どんぶらこ",
+      "address": "熊本県阿蘇郡南阿蘇村河陰4510-4",
+      "url": "https://www.cnpowners.jp/cnp/%E4%B8%87%E7%A6%8F%E5%B0%8F%E5%B1%8B%E3%81%A9%E3%82%93%E3%81%B6%E3%82%89%E3%81%93",
+      "description": "水〜土曜日はたこ焼き1舟50％OFF",
+      "id": 72
+   },
+   {
+      "name": "M.Y.D.C.T",
+      "address": "オンライン",
+      "isOnline": true,
+      "url": "https://www.cnpowners.jp/cnp/m.y.d.c.t-",
+      "description": "10％割引",
+      "id": 73
+   },
+   {
+      "name": "クラフト インターナショナル",
+      "address": "香港 Room 3208, Central Plaza, 18 Harbour Road, Wanchai, HK",
+      "url": "https://www.cnpowners.jp/cnp/%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%8A%E3%82%B7%E3%83%A7%E3%83%8A%E3%83%AB",
+      "description": "翻訳料金など10%OFF",
+      "id": 74
+   },
+   {
+      "name": "アソーラカフェ",
+      "address": "大阪市鶴見区鶴見2-15-20",
+      "url": "https://www.cnpowners.jp/cnp/%E3%82%A2%E3%82%BD%E3%83%BC%E3%83%A9%E3%82%AB%E3%83%95%E3%82%A7",
+      "description": "コオロギブラウニー進呈",
+      "id": 75
+   },
+   {
+      "name": "Ramen Kanda",
+      "address": "Plaza de bole, F. Torres St, Davao City, 8000, Philippines",
+      "url": "https://www.cnpowners.jp/cnp/ramen-kanda",
+      "description": "店内飲食10%割引",
+      "id": 76
+   },
+   {
+      "name": "発酵ルパン",
+      "address": "大阪府大阪市阿倍野区阪南町1-50-23",
+      "url": "https://www.cnpowners.jp/cnp/%E7%99%BA%E9%85%B5%E3%83%AB%E3%83%91%E3%83%B3",
+      "description": "1ドリンクサービス！",
+      "id": 77
+   },
+   {
+      "name": "お食事処よしの",
+      "address": "長野県岡谷市本町一丁目1-7",
+      "url": "https://www.cnpowners.jp/cnp/%E3%81%8A%E9%A3%9F%E4%BA%8B%E5%87%A6%E3%82%88%E3%81%97%E3%81%AE",
+      "description": "ソフトドリンクサービス",
+      "id": 78
+   },
+   {
+      "name": "十八代笹川【箕面カフェ スペシャルティコーヒー/スパイスカレー】",
+      "address": "大阪府箕面市粟生間谷東1-27-1",
+      "url": "https://www.cnpowners.jp/cnp/%E5%8D%81%E5%85%AB%E4%BB%A3%E7%AC%B9%E5%B7%9D%E3%80%90%E7%AE%95%E9%9D%A2%E3%82%AB%E3%83%95%E3%82%A7-%E3%82%B9%E3%83%9A%E3%82%B7%E3%83%A3%E3%83%AB%E3%83%86%E3%82%A3%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC%2F%E3%82%B9%E3%83%91%E3%82%A4%E3%82%B9%E3%82%AB%E3%83%AC%E3%83%BC%E3%80%91",
+      "description": "ドリンク2杯目を500円OFF",
+      "id": 79
+   },
+   {
+      "name": "スパイスタリテマスカ？",
+      "address": "福井県福井市二の宮2丁目4-15",
+      "url": "https://www.cnpowners.jp/cnp/%E3%82%B9%E3%83%91%E3%82%A4%E3%82%B9%E3%82%BF%E3%83%AA%E3%83%86%E3%83%9E%E3%82%B9%E3%82%AB%EF%BC%9F",
+      "description": "セットドリンク無料など",
+      "id": 80
+   },
+   {
+      "name": "Gypsy eyelash",
+      "address": "兵庫県神戸市中央区元町通４丁目３−８ 元町コーポラス 222号室",
+      "url": "https://www.cnpowners.jp/cnp/gypsy-eyelash",
+      "description": "まつ毛エクステ￥500 OFFなど",
+      "id": 81
+   },
+   {
+      "name": "株式会社西之原ハウジング",
+      "address": "京都府宇治市槇島町清水23",
+      "url": "https://www.cnpowners.jp/cnp/%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E8%A5%BF%E4%B9%8B%E5%8E%9F%E3%83%8F%E3%82%A6%E3%82%B8%E3%83%B3%E3%82%B0",
+      "description": "玄関・窓リフォームを特別価格に",
+      "id": 82
+   },
+   {
+      "name": "本の読める貸し部屋　HANPAはすぬま",
+      "address": "東京都大田区東矢口3-17-8 柏アパート内",
+      "url": "https://www.cnpowners.jp/cnp/%E6%9C%AC%E3%81%AE%E8%AA%AD%E3%82%81%E3%82%8B%E8%B2%B8%E3%81%97%E9%83%A8%E5%B1%8B%E3%80%80hanpa%E3%81%AF%E3%81%99%E3%81%AC%E3%81%BE",
+      "description": "1時間無料・CNPシールお渡し",
+      "id": 83
+   },
+   {
+      "name": "TORCH Camping & Coworking Space",
+      "address": "栃木県日光市久次良町242",
+      "url": "https://www.cnpowners.jp/cnp/torch-camping-%26-coworking-space",
+      "description": "500円OFF",
+      "id": 84
+   },
+   {
+      "name": "秘密基地植物園とカフェバー",
+      "address": "京都府京都市左京区岩倉東宮田町66",
+      "url": "https://www.cnpowners.jp/cnp/%E7%A7%98%E5%AF%86%E5%9F%BA%E5%9C%B0%E6%A4%8D%E7%89%A9%E5%9C%92%E3%81%A8%E3%82%AB%E3%83%95%E3%82%A7%E3%83%90%E3%83%BC",
+      "description": "飲食代から10%OFF",
+      "id": 85
+   },
+   {
+      "name": "Abientot高島",
+      "address": "滋賀県高島市勝野1229",
+      "url": "https://www.cnpowners.jp/cnp/abientot%E9%AB%98%E5%B3%B6",
+      "description": "特製焼き菓子1つプレゼント",
+      "id": 86
+   },
+   {
+      "name": "ガーデナーシップ",
+      "address": "神奈川県横浜市都築区大丸17-18",
+      "url": "https://www.cnpowners.jp/cnp/%E3%82%AC%E3%83%BC%E3%83%87%E3%83%8A%E3%83%BC%E3%82%B7%E3%83%83%E3%83%97",
+      "description": "剪定作業代 3,000円 OFF",
+      "id": 87
+   },
+   {
+      "name": "鮨 砂流 SUSHI SARYU",
+      "address": "G/F Kronos Sathorn Building. 46 N Sathorn Rd., Bang Rak, Bangkok, Bangkok, Thailand",
+      "url": "https://www.cnpowners.jp/cnp/%E9%AE%A8-%E7%A0%82%E6%B5%81-sushi-saryu",
+      "description": "所有NFTを店内に展示 など",
+      "id": 88
+   },
+   {
+      "name": "THIRD CLINIC GINZA",
+      "address": "東京都中央区銀座２丁目４−１８ ALBORE GINZA 4階 THIRD CLINIC GINZA（サードクリニック）",
+      "url": "https://www.cnpowners.jp/cnp/third-clinic-ginza",
+      "description": "ワンコイン子宮頸がん検診",
+      "id": 89
+   },
+   {
+      "name": "SOLANA SURF CAMP",
+      "address": "高知県幡多郡黒潮町上田の口1809-14",
+      "url": "https://www.cnpowners.jp/cnp/solana-surf-camp",
+      "description": "ピザ500円Off",
+      "id": 90
+   },
+   {
+      "name": "SEDUM（セダム）",
+      "address": "三重県鳥羽市岩倉町181",
+      "url": "https://www.cnpowners.jp/cnp/sedum%EF%BC%88%E3%82%BB%E3%83%80%E3%83%A0%EF%BC%89",
+      "description": "10%割引",
+      "id": 91
+   },
+   {
+      "name": "IBARAKI-MEAT（茨城ミート）",
+      "address": "茨城県ひたちなか市東大島2-19-28",
+      "url": "https://www.cnpowners.jp/cnp/ibaraki-meat%EF%BC%88%E8%8C%A8%E5%9F%8E%E3%83%9F%E3%83%BC%E3%83%88%EF%BC%89",
+      "description": "ガトーショコラorシャーベット",
+      "id": 92
+   },
+   {
+      "name": "パソコン教室こぴっと",
+      "address": "山梨県中央市下河東3053-1イオンタウン山梨中央SC",
+      "url": "https://www.cnpowners.jp/cnp/%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3%E6%95%99%E5%AE%A4%E3%81%93%E3%81%B4%E3%81%A3%E3%81%A8",
+      "description": "入会金半額！",
+      "id": 93
+   },
+   {
+      "name": "レンタルスタジオベリー",
+      "address": "沖縄県那覇市",
+      "url": "https://www.cnpowners.jp/cnp/%E3%83%AC%E3%83%B3%E3%82%BF%E3%83%AB%E3%82%B9%E3%82%BF%E3%82%B8%E3%82%AA%E3%83%99%E3%83%AA%E3%83%BC",
+      "description": "利用料金25%割引",
+      "id": 94
+   },
+   {
+      "name": "近江下田 オートキャンプ場 カスターニャの森",
+      "address": "滋賀県湖南市下田446",
+      "url": "https://www.cnpowners.jp/cnp/%E8%BF%91%E6%B1%9F%E4%B8%8B%E7%94%B0-%E3%82%AA%E3%83%BC%E3%83%88%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%97%E5%A0%B4-%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%8B%E3%83%A3%E3%81%AE%E6%A3%AE",
+      "description": "ご利用料10%OFFなど",
+      "id": 95
+   },
+   {
+      "name": "THE FEELING PLACE 御殿場",
+      "address": "静岡県東山888-3",
+      "url": "https://www.cnpowners.jp/cnp/the-feeling-place-%E5%BE%A1%E6%AE%BF%E5%A0%B4",
+      "description": "ご利用料金が定価から5%オフ",
+      "id": 96
+   },
+   {
+      "name": "ハゴロモ　貸し会議室",
+      "address": "東京都千代田区内神田1-10-8",
+      "url": "https://www.cnpowners.jp/cnp/%E3%83%8F%E3%82%B4%E3%83%AD%E3%83%A2%E3%80%80%E8%B2%B8%E3%81%97%E4%BC%9A%E8%AD%B0%E5%AE%A4",
+      "description": "ご利用料金が定価から5%オフ",
+      "id": 97
+   },
+   {
+      "name": "MOCCU",
+      "address": "福岡県中間市岩瀬4-2-1",
+      "url": "https://www.cnpowners.jp/cnp/moccu",
+      "description": "アイスシングル無料orクレープ20%off",
+      "id": 98
+   },
+   {
+      "name": "10FRESH 練馬店",
+      "address": "東京都練馬区桜台４-5-7 エルム桜台1F",
+      "url": "https://www.cnpowners.jp/cnp/10fresh-%E7%B7%B4%E9%A6%AC%E5%BA%97",
+      "description": "平日スパ60分4,500円/土日は20％off",
+      "id": 99
+   },
+   {
+      "name": "香舎珈琲",
+      "address": "オンライン",
+      "isOnline": true,
+      "url": "https://www.cnpowners.jp/cnp/%E9%A6%99%E8%88%8E%E7%8F%88%E7%90%B2",
+      "description": "ドリップバッグ1個プレゼント",
+      "id": 100
+   }
+]

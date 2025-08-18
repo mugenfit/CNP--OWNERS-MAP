@@ -1,11 +1,35 @@
 // src/useShops.ts
 import { useState, useEffect } from "react";
-var useShops = (userLocation) => {
+var geocodeAddress = async (address) => {
+  if (!window.google || !window.google.maps || !window.google.maps.Geocoder) {
+    console.warn("Google Maps Geocoder not available.");
+    return null;
+  }
+  const geocoder = new window.google.maps.Geocoder();
+  return new Promise((resolve) => {
+    geocoder.geocode({ address }, (results, status) => {
+      if (status === "OK" && results && results[0]) {
+        const location = results[0].geometry.location;
+        resolve({ lat: location.lat(), lng: location.lng() });
+      } else {
+        console.error("Geocode was not successful for the following reason: " + status);
+        resolve(null);
+      }
+    });
+  });
+};
+var useShops = (userLocation, isApiLoaded) => {
   const [shops, setShops] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   useEffect(() => {
+    console.log("[useShops] useEffect triggered. isApiLoaded:", isApiLoaded);
     const fetchShops = async () => {
+      if (!isApiLoaded) {
+        console.warn("[useShops] Google Maps API not yet loaded. Skipping geocoding.");
+        setLoading(false);
+        return;
+      }
       console.log("[useShops] Starting fetch for /shops.json...");
       try {
         const response = await fetch("/shops.json");
@@ -15,14 +39,30 @@ var useShops = (userLocation) => {
         }
         const data = await response.json();
         console.log("[useShops] Parsed data:", data);
+        const geocodedShops = await Promise.all(
+          data.map(async (shop) => {
+            if (!shop.isOnline && (!shop.lat || !shop.lng) && shop.address) {
+              console.log(`[useShops] Attempting to geocode: ${shop.address}`);
+              const coords = await geocodeAddress(shop.address);
+              if (coords) {
+                console.log(`[useShops] Geocoded ${shop.address}: lat=${coords.lat}, lng=${coords.lng}`);
+                return { ...shop, lat: coords.lat, lng: coords.lng };
+              } else {
+                console.warn(`[useShops] Could not geocode address for shop: ${shop.name}, ${shop.address}`);
+              }
+            }
+            return shop;
+          })
+        );
+        console.log("[useShops] Final geocoded shops:", geocodedShops);
         if (userLocation) {
-          const shopsWithDistance = data.map((shop) => ({
+          const shopsWithDistance = geocodedShops.map((shop) => ({
             ...shop,
             distance: shop.lat && shop.lng ? calculateDistance(userLocation.lat, userLocation.lng, shop.lat, shop.lng) : void 0
           }));
           setShops(shopsWithDistance);
         } else {
-          setShops(data);
+          setShops(geocodedShops);
         }
       } catch (error2) {
         console.error("[useShops] Fetch error:", error2);
@@ -32,7 +72,7 @@ var useShops = (userLocation) => {
       }
     };
     fetchShops();
-  }, [userLocation]);
+  }, [userLocation, isApiLoaded]);
   return { shops, loading, error };
 };
 var calculateDistance = (lat1, lon1, lat2, lon2) => {

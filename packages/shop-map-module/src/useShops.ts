@@ -3,13 +3,43 @@
 import { useState, useEffect } from 'react';
 import { Shop } from './types';
 
-export const useShops = (userLocation: { lat: number; lng: number } | null) => {
+// Add geocoding function
+const geocodeAddress = async (address: string): Promise<{ lat: number; lng: number } | null> => {
+  if (!window.google || !window.google.maps || !window.google.maps.Geocoder) {
+    console.warn('Google Maps Geocoder not available.');
+    return null;
+  }
+
+  const geocoder = new window.google.maps.Geocoder();
+  return new Promise((resolve) => {
+    geocoder.geocode({ address: address }, (results, status) => {
+      if (status === 'OK' && results && results[0]) {
+        const location = results[0].geometry.location;
+        resolve({ lat: location.lat(), lng: location.lng() });
+      } else {
+        console.error('Geocode was not successful for the following reason: ' + status);
+        resolve(null);
+      }
+    });
+  });
+};
+
+export const useShops = (userLocation: { lat: number; lng: number } | null, isApiLoaded: boolean) => {
   const [shops, setShops] = useState<Shop[]>([]);
   const [loading, setLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
+    console.log('[useShops] useEffect triggered. isApiLoaded:', isApiLoaded); // Added log
+
     const fetchShops = async () => {
+      // Only proceed if Google Maps API is loaded
+      if (!isApiLoaded) { // Use the new prop
+        console.warn('[useShops] Google Maps API not yet loaded. Skipping geocoding.');
+        setLoading(false); // Ensure loading state is updated even if API is not ready
+        return;
+      }
+
       console.log('[useShops] Starting fetch for /shops.json...');
       try {
         const response = await fetch('/shops.json');
@@ -18,16 +48,35 @@ export const useShops = (userLocation: { lat: number; lng: number } | null) => {
           throw new Error(`Network response was not ok: ${response.statusText}`);
         }
         const data: Shop[] = await response.json();
+        console.log('[useShops] Raw shops data:', data); // Add this line
         console.log('[useShops] Parsed data:', data);
+
+        const geocodedShops: Shop[] = await Promise.all(
+          data.map(async (shop) => {
+            if (!shop.isOnline && (!shop.lat || !shop.lng) && shop.address) {
+              console.log(`[useShops] Attempting to geocode: ${shop.address}`); // Added log
+              const coords = await geocodeAddress(shop.address);
+              if (coords) {
+                console.log(`[useShops] Geocoded ${shop.address}: lat=${coords.lat}, lng=${coords.lng}`); // Added log
+                return { ...shop, lat: coords.lat, lng: coords.lng };
+              } else {
+                console.warn(`[useShops] Could not geocode address for shop: ${shop.name}, ${shop.address}`);
+              }
+            }
+            return shop;
+          })
+        );
         
+        console.log('[useShops] Final geocoded shops:', geocodedShops); // Added log
+
         if (userLocation) {
-          const shopsWithDistance = data.map(shop => ({
+          const shopsWithDistance = geocodedShops.map(shop => ({
             ...shop,
             distance: shop.lat && shop.lng ? calculateDistance(userLocation.lat, userLocation.lng, shop.lat, shop.lng) : undefined
           }));
           setShops(shopsWithDistance);
         } else {
-          setShops(data);
+          setShops(geocodedShops);
         }
       } catch (error: any) {
         console.error('[useShops] Fetch error:', error);
@@ -38,7 +87,7 @@ export const useShops = (userLocation: { lat: number; lng: number } | null) => {
     };
 
     fetchShops();
-  }, [userLocation]);
+  }, [userLocation, isApiLoaded]); // Depend on isApiLoaded
 
   return { shops, loading, error };
 };

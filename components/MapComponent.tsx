@@ -8,6 +8,7 @@ interface MapComponentProps {
   shops: Shop[];
   selectedShop: Shop | null;
   setSelectedShop: (shop: Shop | null) => void;
+  onMapLoad: () => void; // New prop
 }
 
 const MapComponent: React.FC<MapComponentProps> = ({
@@ -15,6 +16,7 @@ const MapComponent: React.FC<MapComponentProps> = ({
   shops,
   selectedShop,
   setSelectedShop,
+  onMapLoad, // Destructure new prop
 }) => {
 
   return (
@@ -25,6 +27,7 @@ const MapComponent: React.FC<MapComponentProps> = ({
       gestureHandling={'greedy'}
       disableDefaultUI={false}
       style={{ flexGrow: 1 }}
+      onLoad={onMapLoad} // Call onMapLoad when map is loaded
     >
       {userLocation && (
         <AdvancedMarker position={userLocation}>
