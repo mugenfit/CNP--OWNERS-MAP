@@ -64,6 +64,7 @@ var useShops = (userLocation, isApiLoaded) => {
           throw new Error(`Network response was not ok: ${response.statusText}`);
         }
         const data = await response.json();
+        console.log("[useShops] Raw shops data:", data);
         console.log("[useShops] Parsed data:", data);
         const geocodedShops = await Promise.all(
           data.map(async (shop) => {

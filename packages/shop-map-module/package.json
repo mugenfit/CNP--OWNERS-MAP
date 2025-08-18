@@ -31,6 +31,6 @@
     "typescript": "^5"
   },
   "dependencies": {
-    "@vis.gl/react-google-maps": "^1.5.4"
+    "@vis.gl/react-google-maps": "1.0.0"
   }
 }
