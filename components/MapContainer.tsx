@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { useShops, Shop } from '@miyazawanaotaka/shop-map-module';
+import { useShops, Shop } from './src/shop-map';
 import MapComponent from './MapComponent';
 
 interface MapContainerProps {
