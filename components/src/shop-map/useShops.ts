@@ -42,7 +42,7 @@ export const useShops = (userLocation: { lat: number; lng: number } | null, isAp
 
       console.log('[useShops] Starting fetch for /shops.json...');
       try {
-        const response = await fetch('/shops.json');
+        const response = await fetch(`${import.meta.env.BASE_URL}shops.json`);
         console.log('[useShops] Fetch response:', response);
         if (!response.ok) {
           throw new Error(`Network response was not ok: ${response.statusText}`);
